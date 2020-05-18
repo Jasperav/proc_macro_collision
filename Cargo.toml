@@ -1,0 +1,12 @@
+[package]
+name = "proc_macro_collision"
+version = "0.1.0"
+authors = ["Unknown"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+proc-macro-hack = "0.5"
+proc_one = { path = "./proc_one" }
+proc_two = { path = "./proc_two" }
